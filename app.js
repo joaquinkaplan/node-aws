@@ -8,5 +8,5 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send("HI, I'M THE INDEX");
+  res.send("hey there");
 });
